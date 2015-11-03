@@ -1,0 +1,7 @@
+#.gitattributes
+
+#do not export these directories during "git archive"
+.git*	export-ignore
+
+# Map file extensions to git filters
+* 	filter=keyword_expansion
